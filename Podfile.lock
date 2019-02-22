@@ -1,0 +1,36 @@
+PODS:
+  - IQKeyboardManager (6.2.0)
+  - Material (2.16.4):
+    - Material/Core (= 2.16.4)
+  - Material/Core (2.16.4):
+    - Motion (~> 1.4.3)
+  - Motion (1.4.3):
+    - Motion/Core (= 1.4.3)
+  - Motion/Core (1.4.3)
+  - SnapKit (4.0.1)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - Material
+  - SnapKit (~> 4.0.0)
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IQKeyboardManager
+    - Material
+    - Motion
+    - SnapKit
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  Material: 4ed78690b09ffd148b5ffab6b4367fb1d8da1cd3
+  Motion: 153ba49692997888556c7a95207278a8b1f8be95
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 36853c2c6c686783a3497bd0a1e585bd913b85c1
+
+COCOAPODS: 1.5.3
