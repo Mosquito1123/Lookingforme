@@ -17,7 +17,7 @@ class AboutViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        let url = URL(string: "https://github.com/rbrazones/ios-SetGame/issues/3") ?? URL(fileURLWithPath: "")
+        let url = URL(string: "http://t.cn/EG0TAHF") ?? URL(fileURLWithPath: "")
         let request = URLRequest(url: url)
         self.webView.load(request)
         
