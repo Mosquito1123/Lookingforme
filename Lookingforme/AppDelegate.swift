@@ -8,6 +8,7 @@
 
 import UIKit
 import SVProgressHUD
+import MMModuleManager
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

@@ -17,11 +17,6 @@
 		F3748CEE221FDDED003A4B6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3748CEC221FDDED003A4B6C /* LaunchScreen.storyboard */; };
 		F3748CF9221FDDED003A4B6C /* LookingformeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3748CF8221FDDED003A4B6C /* LookingformeTests.swift */; };
 		F3748D04221FDDED003A4B6C /* LookingformeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3748D03221FDDED003A4B6C /* LookingformeUITests.swift */; };
-		F3748D16221FE185003A4B6C /* findme_64_64.png in Resources */ = {isa = PBXBuildFile; fileRef = F3748D11221FE184003A4B6C /* findme_64_64.png */; };
-		F3748D17221FE185003A4B6C /* CONTRIBUTING.md in Resources */ = {isa = PBXBuildFile; fileRef = F3748D12221FE185003A4B6C /* CONTRIBUTING.md */; };
-		F3748D18221FE185003A4B6C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F3748D13221FE185003A4B6C /* README.md */; };
-		F3748D19221FE185003A4B6C /* CODE_OF_CONDUCT.md in Resources */ = {isa = PBXBuildFile; fileRef = F3748D14221FE185003A4B6C /* CODE_OF_CONDUCT.md */; };
-		F3748D1A221FE185003A4B6C /* findme_320_320.png in Resources */ = {isa = PBXBuildFile; fileRef = F3748D15221FE185003A4B6C /* findme_320_320.png */; };
 		F3748D40221FE3D0003A4B6C /* RouteCacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3748D23221FE3CF003A4B6C /* RouteCacheService.swift */; };
 		F3748D41221FE3D0003A4B6C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3748D25221FE3CF003A4B6C /* UIColorExtension.swift */; };
 		F3748D42221FE3D0003A4B6C /* SCNVector3Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3748D26221FE3CF003A4B6C /* SCNVector3Extensions.swift */; };
@@ -86,11 +81,6 @@
 		F3748CFF221FDDED003A4B6C /* LookingformeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LookingformeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3748D03221FDDED003A4B6C /* LookingformeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookingformeUITests.swift; sourceTree = "<group>"; };
 		F3748D05221FDDED003A4B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3748D11221FE184003A4B6C /* findme_64_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = findme_64_64.png; sourceTree = "<group>"; };
-		F3748D12221FE185003A4B6C /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
-		F3748D13221FE185003A4B6C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F3748D14221FE185003A4B6C /* CODE_OF_CONDUCT.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CODE_OF_CONDUCT.md; sourceTree = "<group>"; };
-		F3748D15221FE185003A4B6C /* findme_320_320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = findme_320_320.png; sourceTree = "<group>"; };
 		F3748D23221FE3CF003A4B6C /* RouteCacheService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteCacheService.swift; sourceTree = "<group>"; };
 		F3748D25221FE3CF003A4B6C /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		F3748D26221FE3CF003A4B6C /* SCNVector3Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNVector3Extensions.swift; sourceTree = "<group>"; };
@@ -173,11 +163,6 @@
 		F3748CD7221FDDEC003A4B6C = {
 			isa = PBXGroup;
 			children = (
-				F3748D14221FE185003A4B6C /* CODE_OF_CONDUCT.md */,
-				F3748D12221FE185003A4B6C /* CONTRIBUTING.md */,
-				F3748D11221FE184003A4B6C /* findme_64_64.png */,
-				F3748D15221FE185003A4B6C /* findme_320_320.png */,
-				F3748D13221FE185003A4B6C /* README.md */,
 				F3748CE2221FDDEC003A4B6C /* Lookingforme */,
 				F3748CF7221FDDED003A4B6C /* LookingformeTests */,
 				F3748D02221FDDED003A4B6C /* LookingformeUITests */,
@@ -416,13 +401,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3748D1A221FE185003A4B6C /* findme_320_320.png in Resources */,
-				F3748D18221FE185003A4B6C /* README.md in Resources */,
-				F3748D16221FE185003A4B6C /* findme_64_64.png in Resources */,
-				F3748D19221FE185003A4B6C /* CODE_OF_CONDUCT.md in Resources */,
 				F3748D49221FE3D0003A4B6C /* SwitchView.xib in Resources */,
 				F3748CEE221FDDED003A4B6C /* LaunchScreen.storyboard in Resources */,
-				F3748D17221FE185003A4B6C /* CONTRIBUTING.md in Resources */,
 				F3748CEB221FDDED003A4B6C /* Assets.xcassets in Resources */,
 				F3748CE9221FDDEC003A4B6C /* Main.storyboard in Resources */,
 			);
@@ -477,6 +457,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Lookingforme/Pods-Lookingforme-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MMModuleManager/MMModuleManager.framework",
 				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
 				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
@@ -487,6 +468,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMModuleManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
@@ -749,14 +731,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4PGZU33K39;
+				DEVELOPMENT_TEAM = MA43JL2H9B;
 				INFOPLIST_FILE = Lookingforme/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = winston.Lookingforme;
+				PRODUCT_BUNDLE_IDENTIFIER = Lookingforme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -769,14 +751,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4PGZU33K39;
+				DEVELOPMENT_TEAM = MA43JL2H9B;
 				INFOPLIST_FILE = Lookingforme/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = winston.Lookingforme;
+				PRODUCT_BUNDLE_IDENTIFIER = Lookingforme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

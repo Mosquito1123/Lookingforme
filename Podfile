@@ -6,6 +6,9 @@ target 'Lookingforme' do
   use_frameworks!
 
   # Pods for Lookingforme
+  
+  
+  pod 'MMModuleManager'
   pod 'SnapKit', '~> 4.0.0'
   pod 'Material'
   pod 'IQKeyboardManager'

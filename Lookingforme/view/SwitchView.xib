@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="Futura.ttc">
-            <string>Futura-Bold</string>
-            <string>Futura-Medium</string>
-        </array>
-    </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SwitchView" customModule="Findme" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SwitchView" customModule="Lookingforme" customModuleProvider="target">
             <connections>
                 <outlet property="captureView" destination="hDa-s8-8wP" id="uGL-yc-7WY"/>
                 <outlet property="contentLabel" destination="mGg-51-ehj" id="CIo-ou-HFF"/>
@@ -28,8 +22,8 @@
             <rect key="frame" x="0.0" y="0.0" width="277" height="481"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hDa-s8-8wP" customClass="DashedBorderView" customModule="Findme" customModuleProvider="target">
-                    <rect key="frame" x="28" y="140" width="220" height="220"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hDa-s8-8wP" customClass="DashedBorderView" customModule="Lookingforme" customModuleProvider="target">
+                    <rect key="frame" x="28.5" y="130.5" width="220" height="220"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="220" id="YIL-B0-lju"/>
@@ -37,7 +31,7 @@
                     </constraints>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9PE-Cj-lNK" customClass="Button" customModule="Material">
-                    <rect key="frame" x="38.5" y="150.5" width="200" height="200"/>
+                    <rect key="frame" x="38.5" y="140.5" width="200" height="200"/>
                     <color key="backgroundColor" red="1" green="0.27058823529999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="200" id="WU8-Sp-9Yw"/>
@@ -78,16 +72,15 @@
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="9PE-Cj-lNK" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="E83-pZ-hEc"/>
-                <constraint firstItem="hDa-s8-8wP" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="PTK-Ho-tQ7"/>
-                <constraint firstItem="9PE-Cj-lNK" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="Zy9-Zb-0cQ"/>
-                <constraint firstItem="hDa-s8-8wP" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="iIy-8Y-MQp"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="k0K-UN-3Bw" secondAttribute="trailing" id="nDX-ii-rYy"/>
-                <constraint firstItem="k0K-UN-3Bw" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="oCF-g6-DgV"/>
-                <constraint firstItem="k0K-UN-3Bw" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="uBU-43-rAi"/>
+                <constraint firstItem="9PE-Cj-lNK" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="E83-pZ-hEc"/>
+                <constraint firstItem="hDa-s8-8wP" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="PTK-Ho-tQ7"/>
+                <constraint firstItem="9PE-Cj-lNK" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Zy9-Zb-0cQ"/>
+                <constraint firstItem="hDa-s8-8wP" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="iIy-8Y-MQp"/>
+                <constraint firstAttribute="trailing" secondItem="k0K-UN-3Bw" secondAttribute="trailing" id="nDX-ii-rYy"/>
+                <constraint firstItem="k0K-UN-3Bw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="oCF-g6-DgV"/>
+                <constraint firstItem="k0K-UN-3Bw" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="uBU-43-rAi"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <point key="canvasLocation" x="-13.5" y="-38.5"/>
         </view>
     </objects>
